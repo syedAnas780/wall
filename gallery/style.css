@@ -1,0 +1,26 @@
+h1{
+    text-align: center;
+    color: rgb(221, 158, 76);
+    font-size: 60px;
+}
+img{
+    height: 100px;
+    width: 80px;
+}
+div.wall{
+    border: 3px solid rgb(139, 137, 161);
+    min-height: 300px;
+    max-width: 700px;
+    text-align: center;
+    margin: 12px auto;
+    transform: scale(1.1);
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.zlM-rilrXVMdlufrn7Y9FwHaFj&pid=Api&P=0&h=220);
+    flex-wrap: wrap;
+    display: flex;
+}
+div{
+    flex-wrap: wrap;
+    margin: 8px;
+}
